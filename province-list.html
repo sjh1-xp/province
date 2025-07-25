@@ -120,7 +120,7 @@
 
     // 跳转到首页
     function goToHomePage() {
-      window.location.href = 'index.html';
+      window.location.href = '/sjh1-xp/province/edit/main/index.html';
     }
 
     // 跳转到省份详情页
@@ -130,7 +130,7 @@
       const policyUrl = encodeURIComponent(province.policyUrl);
       const analysisUrl = encodeURIComponent(province.analysisUrl);
 
-      window.location.href = `province-detail.html?name=${provinceName}&policyUrl=${policyUrl}&analysisUrl=${analysisUrl}&level=${level}`;
+      window.location.href = `/province/province-detail.html?name=${provinceName}&policyUrl=${policyUrl}&analysisUrl=${analysisUrl}&level=${level}`;
     }
   </script>
 </body>
